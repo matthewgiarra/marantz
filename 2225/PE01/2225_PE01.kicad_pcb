@@ -131,7 +131,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 004b8704-2824-4f09-94b8-48d93640ee71)
-    (at 239.014 143.764 90)
+    (at 198.882 164.338 90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -179,7 +179,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 0147df52-a019-4c04-8a0a-f183992bb1e5)
-    (at 193.294 108.86 90)
+    (at 153.162 129.434 90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -227,7 +227,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 036e3d54-756d-42c3-93be-3e571db3fdc0)
-    (at 280.162 99.06)
+    (at 240.03 119.634)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -275,7 +275,7 @@
 
   (footprint "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 04c8f14d-2cf5-4335-9f66-01fc0921a7f4)
-    (at 332.994 133.564 90)
+    (at 292.862 154.138 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7mm width 2.5mm Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -319,7 +319,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 05f0987a-79c2-4d6c-9577-00dca5d25242)
-    (at 305.308 146.01 90)
+    (at 265.176 166.584 90)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*3.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7.2mm width 3.5mm Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -363,7 +363,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-92_Inline" (layer "F.Cu")
     (tedit 5A1DD157) (tstamp 09c992d1-5596-4e7f-99e6-f47f8a7a1768)
-    (at 272.796 114.914)
+    (at 232.664 135.488)
     (descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -407,7 +407,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 11d22bfd-4c98-448c-be81-3eac8836e9ac)
-    (at 200.470888 110.384)
+    (at 160.338888 130.958)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -564,7 +564,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-92_Inline" (layer "F.Cu")
     (tedit 5A1DD157) (tstamp 17e9d04a-133e-45a5-a2d5-2d0abe09afcb)
-    (at 273.05 101.346)
+    (at 232.918 121.92)
     (descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -608,7 +608,7 @@
 
   (footprint "Potentiometer_THT:Potentiometer_Marantz_RM0104005" (layer "F.Cu")
     (tedit 0) (tstamp 236e4ed1-d53d-465e-a406-8a09b582215c)
-    (at 153.195 127.321)
+    (at 113.063 147.895)
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
     (property "Sheetname" "")
     (path "/30d333db-7cf9-4c0a-96fe-9f94cdcbf863")
@@ -642,7 +642,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_FKS3_FKP3" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 23d9d640-97c1-430c-a4ce-53281b5d9290)
-    (at 149.86 139.252 -90)
+    (at 109.728 159.826 -90)
     (descr "C, Rect series, Radial, pin pitch=7.50mm, , length*width=10*4mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf")
     (tags "C Rect series Radial pin pitch 7.50mm  length 10mm width 4mm Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -686,7 +686,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-92_Inline" (layer "F.Cu")
     (tedit 5A1DD157) (tstamp 23eddf7e-9611-4208-acf0-37b9c5980020)
-    (at 157.226 109.22)
+    (at 117.094 129.794)
     (descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -730,7 +730,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_FKS3_FKP3" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 29eed707-e3f9-45a6-b681-e1f4ac18ee76)
-    (at 182.372 135.83 90)
+    (at 142.24 156.404 90)
     (descr "C, Rect series, Radial, pin pitch=7.50mm, , length*width=10*4mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf")
     (tags "C Rect series Radial pin pitch 7.50mm  length 10mm width 4mm Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -774,7 +774,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 2a751bed-2655-432c-aee6-db32cbe4fa21)
-    (at 267.208 111.76 90)
+    (at 227.076 132.334 90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -822,7 +822,7 @@
 
   (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm" (layer "F.Cu")
     (tedit 5A1DC084) (tstamp 2aee433f-5dbc-4550-a5b1-d0f75bba4559)
-    (at 145.034 93.472)
+    (at 104.902 114.046)
     (descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
     (tags "solder Pin_ press fit")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -856,7 +856,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-92_Inline" (layer "F.Cu")
     (tedit 5A1DD157) (tstamp 31a1fdc7-2e6a-4634-9d73-b390581256d5)
-    (at 156.972 117.2)
+    (at 116.84 137.774)
     (descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -900,7 +900,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 3406929d-3c0f-40c5-84ae-e8e6c8830b0c)
-    (at 348.234 109.982)
+    (at 308.102 130.556)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -948,7 +948,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L9.0mm_W3.2mm_P7.50mm_MKT" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 35838cb7-3ba9-48ce-80ba-1c14aef1aa06)
-    (at 224.028 130.362 -90)
+    (at 183.896 150.936 -90)
     (descr "C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*3.2mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf")
     (tags "C Rect series Radial pin pitch 7.50mm  length 9mm width 3.2mm Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -994,7 +994,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 35da5799-a230-4a64-b0dc-8f14b9c9a7d3)
-    (at 184.658 119.274 90)
+    (at 144.526 139.848 90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1042,7 +1042,7 @@
 
   (footprint "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" (layer "F.Cu")
     (tedit 5BC5C9B9) (tstamp 36a88539-117d-4585-8c98-8aba28d01b2a)
-    (at 132.842 130.302 90)
+    (at 92.71 150.876 90)
     (descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=11mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 11mm Non-Polar Electrolytic Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1077,7 +1077,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L9.0mm_W3.2mm_P7.50mm_MKT" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 37030fd7-2cc0-43a3-942d-e59f590e1c18)
-    (at 240.224 127 180)
+    (at 200.092 147.574 180)
     (descr "C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*3.2mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf")
     (tags "C Rect series Radial pin pitch 7.50mm  length 9mm width 3.2mm Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1123,7 +1123,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 391c5489-d378-4018-b13e-089cdea4cf06)
-    (at 144.526 148.082 90)
+    (at 104.394 168.656 90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1171,7 +1171,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 3983dc73-51bf-43f7-a203-16279a2db9f1)
-    (at 311.15 129.286)
+    (at 271.018 149.86)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1219,7 +1219,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 3b9de954-0104-4b8e-a34b-63e3a64aae8a)
-    (at 243.332 100.33 180)
+    (at 203.2 120.904 180)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1267,7 +1267,7 @@
 
   (footprint "Potentiometer_THT:Potentiometer_Marantz_RM0104005" (layer "F.Cu")
     (tedit 0) (tstamp 3d629b30-5b1a-4962-aabd-89f61002905a)
-    (at 250.985 127.575)
+    (at 210.853 148.149)
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
     (property "Sheetname" "")
     (path "/ca6c41eb-69cb-4759-9304-328876274f84")
@@ -1301,7 +1301,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 42ca41fb-c54a-4c78-85a4-ee61b4639915)
-    (at 310.896 146.01 90)
+    (at 270.764 166.584 90)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*3.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7.2mm width 3.5mm Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1345,7 +1345,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 4555d886-83d9-4dd3-b408-392e377438a9)
-    (at 229.108 130.81 -90)
+    (at 188.976 151.384 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1393,7 +1393,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 4838c6d3-c760-49c8-8f8d-2ed4a8e7043d)
-    (at 161.29 92.456)
+    (at 121.158 113.03)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1441,7 +1441,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 4b45f45d-be36-4663-bd28-eb3df84b1e24)
-    (at 289.814 150.074 90)
+    (at 249.682 170.648 90)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*3.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7.2mm width 3.5mm Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1485,7 +1485,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 4be7daec-3203-4038-ab93-fe74a2ea9876)
-    (at 234.188 131.064 -90)
+    (at 194.056 151.638 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1533,7 +1533,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-92_Inline" (layer "F.Cu")
     (tedit 5A1DD157) (tstamp 4cb931b9-cd49-464d-9e66-60fa581c8e1c)
-    (at 174.244 106.426)
+    (at 134.112 127)
     (descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1577,7 +1577,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 4e052582-759d-41c5-8f9a-c230ab5b67ee)
-    (at 344.17 97.536)
+    (at 304.038 118.11)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1625,7 +1625,7 @@
 
   (footprint "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 50bf4ac4-535d-43ab-8581-9b48625960c0)
-    (at 337.312 139.152 90)
+    (at 297.18 159.726 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7mm width 2.5mm Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1669,7 +1669,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 5617e6b8-05eb-4654-a172-7a567fcfd2b8)
-    (at 330.454 114.554 90)
+    (at 290.322 135.128 90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1717,7 +1717,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 5a6f42c2-10d7-4ec1-95ec-cf589487daa7)
-    (at 299.72 137.16 -90)
+    (at 259.588 157.734 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1765,7 +1765,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 5b881cda-1c89-430c-9c0d-faf43edd7764)
-    (at 287.274 119.888 180)
+    (at 247.142 140.462 180)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1813,7 +1813,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 5c6b93b1-9361-4ec1-b403-d8654d862a91)
-    (at 287.782 106.172 180)
+    (at 247.65 126.746 180)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1861,7 +1861,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 5df7fd37-7d60-49c6-9c86-cb08bfcba04b)
-    (at 361.442 114.808 180)
+    (at 321.31 135.382 180)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1909,7 +1909,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L16.5mm_W4.7mm_P15.00mm_MKT" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 5fc9f522-5b3a-433c-a9ae-1f28fe48b21b)
-    (at 372.618 93.846 -90)
+    (at 332.486 114.42 -90)
     (descr "C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*4.7mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf")
     (tags "C Rect series Radial pin pitch 15.00mm  length 16.5mm width 4.7mm Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1955,7 +1955,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-92_Inline" (layer "F.Cu")
     (tedit 5A1DD157) (tstamp 635ff3f7-22ab-4004-a275-87a32d0cdea3)
-    (at 318.77 108.712)
+    (at 278.638 129.286)
     (descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -1999,7 +1999,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 68da0d81-f380-4525-9c13-36331885ce11)
-    (at 152.146 123.084)
+    (at 112.014 143.658)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -2047,7 +2047,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 6a0a952c-1213-45ac-97e8-351a2e00e1b7)
-    (at 236.982 106.426 -90)
+    (at 196.85 127 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -2095,7 +2095,7 @@
 
   (footprint "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" (layer "F.Cu")
     (tedit 5BC5C9B9) (tstamp 7116c841-6156-4284-beb2-d2bd38fa011a)
-    (at 132.842 122.428 90)
+    (at 92.71 143.002 90)
     (descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=11mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 11mm Non-Polar Electrolytic Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -2130,7 +2130,7 @@
 
   (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm" (layer "F.Cu")
     (tedit 5A1DC084) (tstamp 763e77bd-47ac-474f-8f00-849ada6ea904)
-    (at 391.668 100.076)
+    (at 351.536 120.65)
     (descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
     (tags "solder Pin_ press fit")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -2164,7 +2164,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 77131f2b-3fb0-4cdb-8eb7-b7aaac131eda)
-    (at 297.688 111.506 90)
+    (at 257.556 132.08 90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -2212,7 +2212,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 7c7aa5c8-6b0e-46cd-ada3-18ab133cf0bb)
-    (at 197.104 133.858 -90)
+    (at 156.972 154.432 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -2260,7 +2260,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 813fa4e2-24c7-409e-a3c6-82a4e155b979)
-    (at 256.54 107.783621 -90)
+    (at 216.408 128.357621 -90)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -2433,7 +2433,7 @@
 
   (footprint "Potentiometer_THT:Potentiometer_Marantz_RM0104005" (layer "F.Cu")
     (tedit 0) (tstamp 8189ac29-516a-4920-927e-b5e9bbc4146e)
-    (at 340.901 125.035)
+    (at 300.769 145.609)
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
     (property "Sheetname" "")
     (path "/b2dee703-708f-4124-bc6b-2297d7192a37")
@@ -2467,7 +2467,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" (layer "F.Cu")
     (tedit 5AE50EF1) (tstamp 853f376c-868c-42f8-b87a-1340782e9673)
-    (at 323.85 95.331677 90)
+    (at 283.718 115.905677 90)
     (descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -2696,7 +2696,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 854ffd4c-bc29-44a1-bc94-b9bf1093c95b)
-    (at 171.958 99.208)
+    (at 131.826 119.782)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -2744,7 +2744,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_FKS3_FKP3" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 885b466e-0d76-41db-95bf-8812f9a026ca)
-    (at 182.372 147.26 90)
+    (at 142.24 167.834 90)
     (descr "C, Rect series, Radial, pin pitch=7.50mm, , length*width=10*4mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf")
     (tags "C Rect series Radial pin pitch 7.50mm  length 10mm width 4mm Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -2788,7 +2788,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 89732097-0568-4a4b-9642-7e06efbc014f)
-    (at 219.71 104.14 -90)
+    (at 179.578 124.714 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -2836,7 +2836,7 @@
 
   (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm" (layer "F.Cu")
     (tedit 5A1DC084) (tstamp 8b1223be-c81d-44e8-bc2f-7c4f813b856a)
-    (at 391.668 115.316)
+    (at 351.536 135.89)
     (descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
     (tags "solder Pin_ press fit")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -2870,7 +2870,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 92848464-50ad-4820-a7b7-c24aefd13988)
-    (at 130.81 112.014 90)
+    (at 90.678 132.588 90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -2918,7 +2918,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 95e263c0-71c6-482a-b4ae-af092b132f84)
-    (at 164.846 104.542 180)
+    (at 124.714 125.116 180)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -2966,7 +2966,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 96113afd-4bbc-4149-8e16-736cfc2473ae)
-    (at 384.048 121.666 -90)
+    (at 343.916 142.24 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3014,7 +3014,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 96faee8d-40eb-4d12-99b6-7655d2045b61)
-    (at 324.104 136.144 -90)
+    (at 283.972 156.718 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3062,7 +3062,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 9859447a-2f2b-4489-8b1e-6add940a2f52)
-    (at 164.592 113.178 180)
+    (at 124.46 133.752 180)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3110,7 +3110,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 9d0c0031-9ad4-418c-b7ad-73556ebbf0dc)
-    (at 132.842 135.723621 -90)
+    (at 92.71 156.297621 -90)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3283,7 +3283,7 @@
 
   (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm" (layer "F.Cu")
     (tedit 5A1DC084) (tstamp 9f58a966-a94e-42b7-8a5f-0f7a3be0ce0c)
-    (at 391.668 134.366)
+    (at 351.536 154.94)
     (descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
     (tags "solder Pin_ press fit")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3317,7 +3317,7 @@
 
   (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm" (layer "F.Cu")
     (tedit 5A1DC084) (tstamp a3a15b12-ff54-4b39-a0e2-c05fce64db46)
-    (at 133.096 93.472)
+    (at 92.964 114.046)
     (descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
     (tags "solder Pin_ press fit")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3351,7 +3351,7 @@
 
   (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm" (layer "F.Cu")
     (tedit 5A1DC084) (tstamp a5163fae-db6d-409b-bef6-72f5c2045d3e)
-    (at 356.87 92.71)
+    (at 316.738 113.284)
     (descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
     (tags "solder Pin_ press fit")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3385,7 +3385,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp a6756ee7-5ca6-4e45-a325-901a4ff03fb5)
-    (at 188.468 123.338)
+    (at 148.336 143.912)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3433,7 +3433,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp abb041cd-5056-4e72-bac5-134b4ffc4914)
-    (at 329.438 136.144 -90)
+    (at 289.306 156.718 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3481,7 +3481,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp ad85e034-f7b9-41b9-aaa3-bcaa99d2c9b1)
-    (at 256.794 98.131621 -90)
+    (at 216.662 118.705621 -90)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3654,7 +3654,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp b4a7d935-28da-4abb-acc3-88d09f634e7a)
-    (at 246.888 139.446 90)
+    (at 206.756 160.02 90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3702,7 +3702,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp b6ca2020-0f3d-4513-994a-57e69c900589)
-    (at 384.048 115.316 90)
+    (at 343.916 135.89 90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3750,7 +3750,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp bd9b4bf3-ee06-48bb-83fe-01a3d84fe1c5)
-    (at 169.164 110.384 -90)
+    (at 129.032 130.958 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3798,7 +3798,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp bf44fbc4-4a94-4748-924d-5eeddb946a07)
-    (at 304.8 96.012 -90)
+    (at 264.668 116.586 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3846,7 +3846,7 @@
 
   (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm" (layer "F.Cu")
     (tedit 5A1DC084) (tstamp c1c1eb93-d845-41fe-b1d3-58d5de1ce8e4)
-    (at 154.686 93.472)
+    (at 114.554 114.046)
     (descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
     (tags "solder Pin_ press fit")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3880,7 +3880,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp c239d391-5ec9-45c2-9bbb-4f8211da4953)
-    (at 292.354 129.032 -90)
+    (at 252.222 149.606 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3928,7 +3928,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp c27749cf-1c56-46da-9675-ac728a3e1a8f)
-    (at 336.55 115.062 90)
+    (at 296.418 135.636 90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Vertical, pin pitch=5.08mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Vertical pin pitch 5.08mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -3968,7 +3968,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp c7973b0b-3e72-412c-b8a3-c71d87b8eaad)
-    (at 245.11 108.268888 -90)
+    (at 204.978 128.842888 -90)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -4125,7 +4125,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp cb3a7a84-cc9e-4a3d-bf70-dcaf985fefa3)
-    (at 311.912 96.012 -90)
+    (at 271.78 116.586 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=20.32mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 20.32mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -4173,7 +4173,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp cf150774-21d5-4a6c-a285-85d67c9c7429)
-    (at 318.77 136.144 -90)
+    (at 278.638 156.718 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -4221,7 +4221,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp cfff6dc7-1446-47ef-b732-38810b46d962)
-    (at 361.188 104.648 180)
+    (at 321.056 125.222 180)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -4269,7 +4269,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp d1644bf0-222d-4173-8872-cc0b5c8fce21)
-    (at 202.946 146.558 90)
+    (at 162.814 167.132 90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -4317,7 +4317,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp d191123e-936a-4279-a4f0-30f5cc4c3470)
-    (at 209.042 141.478 90)
+    (at 168.91 162.052 90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -4365,7 +4365,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp d4c7973e-f170-454c-b57b-5ecf377bbea9)
-    (at 132.842 143.597621 -90)
+    (at 92.71 164.171621 -90)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -4538,7 +4538,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp d4d316d2-43fa-4bc1-bbf8-a864c5190ccf)
-    (at 217.17 128.016 -90)
+    (at 177.038 148.59 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -4586,7 +4586,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp d74be45d-b94d-4a34-8b10-e28ddcfe2982)
-    (at 310.896 124.714)
+    (at 270.764 145.288)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -4634,7 +4634,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-92_Inline" (layer "F.Cu")
     (tedit 5A1DD157) (tstamp d8a184ed-50ed-4953-b18f-f68aede58961)
-    (at 174.244 116.226)
+    (at 134.112 136.8)
     (descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -4678,7 +4678,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp dc64f426-0c09-43e7-883d-bc16c6824520)
-    (at 190.5 128.524 -90)
+    (at 150.368 149.098 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -4726,7 +4726,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp dfe82465-195a-4184-81c1-674073ee2405)
-    (at 342.138 115.062 -90)
+    (at 302.006 135.636 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Vertical, pin pitch=5.08mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Vertical pin pitch 5.08mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -4766,7 +4766,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L16.5mm_W4.7mm_P15.00mm_MKT" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp e12022d3-2e6b-4102-8eef-2a0745b0944a)
-    (at 372.618 141.866 90)
+    (at 332.486 162.44 90)
     (descr "C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*4.7mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf")
     (tags "C Rect series Radial pin pitch 15.00mm  length 16.5mm width 4.7mm Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -4812,7 +4812,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp e478f8f6-44d2-48b2-ba37-16d575850863)
-    (at 281.178 150.074 90)
+    (at 241.046 170.648 90)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*3.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7.2mm width 3.5mm Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -4856,7 +4856,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp e68d56c3-16ad-4832-9514-37c6b765b5d9)
-    (at 142.494 107.844 -90)
+    (at 102.362 128.418 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -4904,7 +4904,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp e7a4fe6b-b4ba-45ae-ab4c-8053aa907193)
-    (at 139.7 135.382 -90)
+    (at 99.568 155.956 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -4952,7 +4952,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp e834bf4f-e20a-402b-ae64-094ea5fedf71)
-    (at 200.216888 99.716)
+    (at 160.084888 120.29)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -5109,7 +5109,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp eb52610f-d822-44b0-8a1e-717a978bcca3)
-    (at 281.178 129.032 -90)
+    (at 241.046 149.606 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -5157,7 +5157,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp eed0a69b-aa74-4f58-9eef-53f37854acd8)
-    (at 147.32 120.544 90)
+    (at 107.188 141.118 90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -5205,7 +5205,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp f1a4535f-bdde-4ece-a777-c887774fa0dc)
-    (at 188.976 102.51 -90)
+    (at 148.844 123.084 -90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -5253,7 +5253,7 @@
 
   (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm" (layer "F.Cu")
     (tedit 5A1DC084) (tstamp f51993b1-e53d-4749-8566-a64f79cfbb2e)
-    (at 344.678 92.71)
+    (at 304.546 113.284)
     (descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
     (tags "solder Pin_ press fit")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -5287,7 +5287,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-92_Inline" (layer "F.Cu")
     (tedit 5A1DD157) (tstamp f71efbce-b81f-4727-a818-291e97479f3d)
-    (at 318.77 118.618)
+    (at 278.638 139.192)
     (descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -5331,7 +5331,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp fb74d15f-184c-47df-9799-9026e5e08afa)
-    (at 228.6 108.014888 -90)
+    (at 188.468 128.588888 -90)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -5488,7 +5488,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_FKS3_FKP3" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp fc320ea1-5731-4e49-9a6b-67b9b689acc7)
-    (at 149.86 127.822 -90)
+    (at 109.728 148.396 -90)
     (descr "C, Rect series, Radial, pin pitch=7.50mm, , length*width=10*4mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf")
     (tags "C Rect series Radial pin pitch 7.50mm  length 10mm width 4mm Capacitor")
     (property "Sheetfile" "marantz_2225_preamp_2022-10-19.kicad_sch")
@@ -5529,5 +5529,7 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_rect (start 80.086 104.846) (end 361.95 176.276) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 1a60de95-4eeb-4902-9e4d-ec712549f946))
 
 )
