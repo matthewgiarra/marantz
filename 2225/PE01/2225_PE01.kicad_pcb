@@ -38,6 +38,19 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
@@ -4142,7 +4155,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L16.5mm_W4.7mm_P15.00mm_MKT" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp e12022d3-2e6b-4102-8eef-2a0745b0944a)
-    (at 187 51.5 90)
+    (at 187 36 -90)
     (descr "C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*4.7mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf")
     (tags "C Rect series Radial pin pitch 15.00mm  length 16.5mm width 4.7mm Capacitor")
     (property "Sheetfile" "2225_PE01.kicad_sch")
@@ -4175,9 +4188,9 @@
     (fp_line (start 15.75 -2.35) (end -0.75 -2.35) (layer "F.Fab") (width 0.1) (tstamp a8fae0e8-d8ad-49a7-846a-f042dbea709b))
     (fp_line (start -0.75 -2.35) (end -0.75 2.35) (layer "F.Fab") (width 0.1) (tstamp aae088d1-11d8-4abc-90e9-c855d4116abb))
     (fp_line (start 15.75 2.35) (end 15.75 -2.35) (layer "F.Fab") (width 0.1) (tstamp b3d51a97-205e-45fd-99ef-0643ddb5acde))
-    (pad "1" thru_hole circle (at 0 0 90) (size 2.2 2.2) (drill 1.1) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle (at 0 0 270) (size 2.2 2.2) (drill 1.1) (layers *.Cu *.Mask)
       (net 19 "Net-(CE1-Pad1)") (pintype "passive") (tstamp 3c7f4325-ba1f-448e-9316-c3f665a31abf))
-    (pad "2" thru_hole circle (at 15 0 90) (size 2.2 2.2) (drill 1.1) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 15 0 270) (size 2.2 2.2) (drill 1.1) (layers *.Cu *.Mask)
       (net 20 "Net-(CE1-Pad2)") (pintype "passive") (tstamp c52a024a-4c19-493d-9a4d-1806b24e279f))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L16.5mm_W4.7mm_P15.00mm_MKT.wrl"
       (offset (xyz 0 0 0))
