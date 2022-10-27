@@ -2624,10 +2624,10 @@
   (symbol (lib_id "Device:Potentiometer_Marantz_RM1014005") (at 332.0189 205.8713 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 30d333db-7cf9-4c0a-96fe-9f94cdcbf863)
-    (property "Reference" "100k3" (id 0) (at 356.1489 203.3313 0)
+    (property "Reference" "RE53" (id 0) (at 356.1489 203.3313 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Value" "RE53(LOW)" (id 1) (at 328.2089 185.0433 0)
+    (property "Value" "100k" (id 1) (at 328.2089 185.0433 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Potentiometer_THT:Potentiometer_Marantz_RM0104005" (id 2) (at 333.151 212.3193 0)
@@ -3429,10 +3429,10 @@
   (symbol (lib_id "Device:Potentiometer_Marantz_RM1014005") (at 274.8689 204.8553 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b2dee703-708f-4124-bc6b-2297d7192a37)
-    (property "Reference" "100k1" (id 0) (at 298.9989 202.3153 0)
+    (property "Reference" "RE51" (id 0) (at 298.9989 202.3153 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Value" "RE51(HIGH)" (id 1) (at 271.0589 184.0273 0)
+    (property "Value" "100k" (id 1) (at 271.0589 184.0273 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Potentiometer_THT:Potentiometer_Marantz_RM0104005" (id 2) (at 276.001 211.3033 0)
@@ -3607,10 +3607,10 @@
   (symbol (lib_id "Device:Potentiometer_Marantz_RM1014005") (at 309.1589 204.6013 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ca6c41eb-69cb-4759-9304-328876274f84)
-    (property "Reference" "100k2" (id 0) (at 333.2889 202.0613 0)
+    (property "Reference" "RE52" (id 0) (at 333.2889 202.0613 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Value" "RE52(MID)" (id 1) (at 305.3489 183.7733 0)
+    (property "Value" "100k" (id 1) (at 305.3489 183.7733 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Potentiometer_THT:Potentiometer_Marantz_RM0104005" (id 2) (at 310.291 211.0493 0)
@@ -3853,15 +3853,6 @@
   )
 
   (symbol_instances
-    (path "/b2dee703-708f-4124-bc6b-2297d7192a37"
-      (reference "100k1") (unit 1) (value "RE51(HIGH)") (footprint "Potentiometer_THT:Potentiometer_Marantz_RM0104005")
-    )
-    (path "/ca6c41eb-69cb-4759-9304-328876274f84"
-      (reference "100k2") (unit 1) (value "RE52(MID)") (footprint "Potentiometer_THT:Potentiometer_Marantz_RM0104005")
-    )
-    (path "/30d333db-7cf9-4c0a-96fe-9f94cdcbf863"
-      (reference "100k3") (unit 1) (value "RE53(LOW)") (footprint "Potentiometer_THT:Potentiometer_Marantz_RM0104005")
-    )
     (path "/46f3b859-597b-4cf4-9608-c0b4fb03231e"
       (reference "CE1") (unit 1) (value "0.22 µF") (footprint "Capacitor_THT:C_Rect_L16.5mm_W4.7mm_P15.00mm_MKT")
     )
@@ -4134,6 +4125,15 @@
     )
     (path "/39072858-56e1-4c63-98bd-3edd7501d33b"
       (reference "RE50") (unit 1) (value "470k") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+    )
+    (path "/b2dee703-708f-4124-bc6b-2297d7192a37"
+      (reference "RE51") (unit 1) (value "100k") (footprint "Potentiometer_THT:Potentiometer_Marantz_RM0104005")
+    )
+    (path "/ca6c41eb-69cb-4759-9304-328876274f84"
+      (reference "RE52") (unit 1) (value "100k") (footprint "Potentiometer_THT:Potentiometer_Marantz_RM0104005")
+    )
+    (path "/30d333db-7cf9-4c0a-96fe-9f94cdcbf863"
+      (reference "RE53") (unit 1) (value "100k") (footprint "Potentiometer_THT:Potentiometer_Marantz_RM0104005")
     )
     (path "/5b2a6257-c31d-4168-a7a6-0301e212888f"
       (reference "RE54") (unit 1) (value "820") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
