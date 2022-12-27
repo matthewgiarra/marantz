@@ -1,0 +1,62 @@
+* PSpice Model Editor - Version 9.2
+*$
+******* Discrete Bipolar Electrical Circuit Model *******
+** Product: KSA992
+** Package: TO-92
+** PNP Epitaxial Silicon Transistor
+** Complement to KSC1845
+** Source: https://www.diyaudio.com/community/threads/tweaked-ksc1845-ksa992-ltspice-models.367523/
+** Derived from: https://www.onsemi.com/pub/Collateral/KSA992.lib
+**-------------------------------------------------------
+.model KSA992 PNP (
++IS = 48.3f NF = 1.0 BF = 395 VAF = 65
++ISE = 0.5f NE = 1.5 IKF = 0.25
++RC = 48m RE = 4.4m RB = 25 RBM = 2.5 IRB = 3.8m
++ISC = 1.8p NR = 1.0 BR = 5.9 VAR = 12 NC = 1.3
++CJC = 7p VJC = 0.6 MJC = 0.32 TF = 365p VTF = 4.0
++CJE = 25p VJE = 0.855 MJE = 0.4404 ITF = 0.75 XTF = 1.13k
++RCO = 55 VO = 3.0 GAMMA = 490n QCO = 300f QUASIMOD = 1
++EG = 1.16 TR = 10n XTB = 1.285 )
+**-------------------------------------------------------
+
+** Product: KSC1845
+** Package: TO-92
+** NPN Epitaxial Silicon Transistor
+** Complement to KSA992
+** Source: https://www.diyaudio.com/community/threads/tweaked-ksc1845-ksa992-ltspice-models.367523/
+** Derived from https://www.onsemi.com/pub/Collateral/KSC1845.lib
+**-------------------------------------------------------
+.model KSC1845 NPN (
++IS = 52.5f NF = 1.0 BF = 408 VAF = 150
++ISE = 4f NE = 1.5 IKF = 0.8
++RC = 0.28 RE = 0.15 RB = 40 RBM = 4.0 IRB = 250u
++ISC = 1.9p NR = 1.0 BR = 15 VAR = 20 NC = 1.3
++CJC = 4.8p VJC = 0.6 MJC = 0.29 TF = 149p VTF = 4.0
++CJE = 26.5p VJE = 0.73 MJE = 0.162
++RCO = 105 VO = 2.2 GAMMA = 1.6u QCO = 2p QUASIMOD = 1
++EG = 1.181 TR = 10n XTB = 1.728 )
+**-------------------------------------------------------
+*$
+
+*--------------------- 2-gang Linear Potentiometer ---------------------
+*     All pots have this kind of layout unless noted otherwise
+* 0.0 -----> 1.0
+*        |2
+*      __V__
+*  1--|_____|--3
+*        
+*  o--R1-o-R2--o
+*
+.SUBCKT POT_LINEAR_2GANG 1 2 3 4 5 6 PARAMS: POT_VAL=100k SET=0.5
+* Parameters: POT_VAL, SET
+* POT_VAL: Max resistance of the potentiometer. Ohms; POT_VAL >= 0
+* SET = ratio of travel of the potentiometer. Unitless; 0 <= SET <= 1
+* Example: POT_LINEAR_2GANG POT_VAL=100k SET=0.5
+* TODO Update node list to match pin numbers of Alpha / Bourns pots
+* TODO Rename nodes with intuitive names
+.param set_clipped=limit(0,SET,1)
+R1 1 2 {POT_VAL*(set_clipped) + 0.0001}
+R2 2 3 {POT_VAL*(1-set_clipped) + 0.0001}
+R3 5 6 {POT_VAL*(set_clipped) + 0.0001}
+R4 4 5 {POT_VAL*(1-set_clipped) + 0.0001}
+.ENDS
