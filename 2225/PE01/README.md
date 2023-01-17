@@ -8,6 +8,9 @@ Components list can be found [here](https://docs.google.com/spreadsheets/d/1S8Fi
 ![2225_PE01_front_01](https://user-images.githubusercontent.com/6032986/212596592-9205183d-4d37-497b-9137-c34c9c10db04.png)
 ![2225_PE01_front_02](https://user-images.githubusercontent.com/6032986/212596616-19628b3f-1011-4d62-91b6-4fde1b8c3940.png)
 ![2225_PE01_back_01](https://user-images.githubusercontent.com/6032986/212596643-d6de8b69-78c0-41ce-b0e6-41594e3ded72.png)
+![2225_PE01_kicad](https://user-images.githubusercontent.com/6032986/212787427-b46322ef-223f-47ed-82fd-395b54f15495.png)
+
+
 
 ## PCB Scans
 ![PE01_front](https://user-images.githubusercontent.com/6032986/200488690-93cd99f3-291e-4a86-bf1d-85c6e44d0a6d.jpg)
