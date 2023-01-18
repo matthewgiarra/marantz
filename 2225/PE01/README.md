@@ -4,11 +4,11 @@
 Components list can be found [here](https://docs.google.com/spreadsheets/d/1S8Fiy-nARGqUnUXXbVScigvOsDpP3ZsTfdl-bGImHVc/edit?usp=sharing).
 
 ## KiCad renders 
-![2225_PE01_front_03](https://user-images.githubusercontent.com/6032986/212596587-b1dc9401-265f-4c55-b579-d2e73c7b23a0.png)
-![2225_PE01_front_01](https://user-images.githubusercontent.com/6032986/212596592-9205183d-4d37-497b-9137-c34c9c10db04.png)
-![2225_PE01_front_02](https://user-images.githubusercontent.com/6032986/212596616-19628b3f-1011-4d62-91b6-4fde1b8c3940.png)
-![2225_PE01_back_01](https://user-images.githubusercontent.com/6032986/212596643-d6de8b69-78c0-41ce-b0e6-41594e3ded72.png)
-![2225_PE01_kicad](https://user-images.githubusercontent.com/6032986/212787427-b46322ef-223f-47ed-82fd-395b54f15495.png)
+![2225_PE01_front_01](https://user-images.githubusercontent.com/6032986/213088241-cc220f7a-e4e4-4b19-a9d6-76f0b42e9d16.png)
+![2225_PE01_front_02](https://user-images.githubusercontent.com/6032986/213088254-ce99458e-3d73-4800-ad91-e78f3055f076.png)
+![2225_PE01_front_03](https://user-images.githubusercontent.com/6032986/213088268-3dfb4294-5c2b-4480-959e-ca9cb709ba35.png)
+![2225_PE01_back_01](https://user-images.githubusercontent.com/6032986/213088283-adbb7b90-2a54-4350-aef7-f26d903c29f1.png)
+![2225_PE01_layout](https://user-images.githubusercontent.com/6032986/213088331-7bbe73cd-9ac6-4176-aefa-265bec70f223.png)
 
 
 
