@@ -5565,7 +5565,7 @@
   (gr_line (start 22.7 49) (end 22.1 48.3) (layer "F.SilkS") (width 0.16) (tstamp b065f179-8e1e-4ef3-a321-54b7ac610e25))
   (gr_rect (start 15.6 32.7) (end 39.4 36.9) (layer "F.SilkS") (width 0.16) (fill none) (tstamp e3147b7c-6f31-4964-93fe-30f919efdc82))
   (gr_rect (start 0 0) (end 200 60) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 1a60de95-4eeb-4902-9e4d-ec712549f946))
-  (gr_text "COMMIT:" (at 27.5 34.8) (layer "F.SilkS") (tstamp 006e95e0-c21f-4b96-9536-b838290c3c73)
+  (gr_text "COMMIT: 37001d67ad8a442d\n2999d452f1c89ddd59344533" (at 27.5 34.8) (layer "F.SilkS") (tstamp 006e95e0-c21f-4b96-9536-b838290c3c73)
     (effects (font (size 1 1) (thickness 0.16)))
   )
   (gr_text "GND" (at 187.999762 29.6) (layer "F.SilkS") (tstamp 23f94947-7500-45bd-a25e-c84c25537701)
