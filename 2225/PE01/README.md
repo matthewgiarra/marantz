@@ -10,13 +10,14 @@ Components list can be found [here](https://docs.google.com/spreadsheets/d/1S8Fi
 ![2225_PE01_back_01](https://user-images.githubusercontent.com/6032986/213088283-adbb7b90-2a54-4350-aef7-f26d903c29f1.png)
 ![2225_PE01_layout](https://user-images.githubusercontent.com/6032986/213088331-7bbe73cd-9ac6-4176-aefa-265bec70f223.png)
 
-
-
 ## PCB Scans
 ![PE01_front](https://user-images.githubusercontent.com/6032986/200488690-93cd99f3-291e-4a86-bf1d-85c6e44d0a6d.jpg)
 ![PE01_back](https://user-images.githubusercontent.com/6032986/200488757-555df6c5-78a4-4e4e-a67c-136fc8b1f880.jpg)
 
-## Marantz service manual
+## Schematic and Layout (from [Marantz 2225L service manual](https://www.manualslib.com/manual/907153/Marantz-2225l.html))
 ![PE01_layout](https://user-images.githubusercontent.com/6032986/200488873-2c793606-c4e8-48c0-b3b2-6a16a62e0062.png)
 ![PE01_schematic](https://user-images.githubusercontent.com/6032986/200488879-9dd9c354-ae6c-4e1c-b258-a5f0fd21bb11.png)
+
+## Notes
+The first prototype board substituted the specified 7.5K resistors RE13 and RE14 with 4.7K 1% components. The reason for the substitution was to mitigate clipping using aux input from a Macbook headphone jack, which was about 1.5VPP. 
 
