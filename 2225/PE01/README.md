@@ -12,8 +12,7 @@ The bill of materials/components list is [here](https://docs.google.com/spreadsh
 ![2225_PE01_back_01](https://user-images.githubusercontent.com/6032986/213088283-adbb7b90-2a54-4350-aef7-f26d903c29f1.png)
 ![2225_PE01_front_02](https://user-images.githubusercontent.com/6032986/213088254-ce99458e-3d73-4800-ad91-e78f3055f076.png)
 
-## Prototype board
-### V1.0, March 2023
+## Prototype board (V1.0, March 2023)
 ![marantz_2225_PE01_tone_board_replica_v1 0](https://user-images.githubusercontent.com/6032986/236725376-9decf616-c144-484f-ae9f-30696c4cd321.jpg)
 
 ## Original PCB
