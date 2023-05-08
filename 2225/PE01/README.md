@@ -25,7 +25,7 @@ The bill of materials/components list is [here](https://docs.google.com/spreadsh
 
 ## Notes
 - CE21 and CE22 should be 3.3µF, not 33µF as they're listed in the service manual.
-- CE23 and CE24 are biopolar capacitors, which the service manual does not indicate. 
+- CE23 and CE24 are biopolar capacitors, which the service manual does not appear to indicate. 
 - The first prototype board substituted the specified 7.5K resistors RE13 and RE14 with 4.7K 1% components. The reason for the substitution was to mitigate clipping using aux input from a Macbook headphone jack, which was about 1.5VPP.
 
 
