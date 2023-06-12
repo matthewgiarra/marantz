@@ -1,0 +1,9 @@
+**--------------------------------------------------------
+** Product: KSC945
+** Package: TO-92L
+** NPN Silicon Transistor
+** Source: https://www.onsemi.com/download/data-sheet/pdf/ksc945-d.pdf
+** Note: Spec component is KSC945CY, with C indicating center collector,
+** and Y indicating 120 < BF < 240
+.model KSC945 NPN (BF=200)
+**--------------------------------------------------------

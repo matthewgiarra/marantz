@@ -1,0 +1,7 @@
+**--------------------------------------------------------
+** Product: 1N4744A Zener Diode (15V)
+** Source: Data from https://www.onsemi.com/download/data-sheet/pdf/1n4736at-d.pdf
+** Note: Spice pin order and kicad pin order are reversed! 
+** For simulations, make sure to use Alternate node squence: 2 1 
+.model 1N4744A D (BV=15 IBV=17.0E-3 RS=14)
+**--------------------------------------------------------
