@@ -1,0 +1,20 @@
+
+* Common anode diode pair
+* The Spice diode model requires pin 1 as anode and pin 2 as cathode (1 ⎯▷|⎯ 2)
+* 1 ⎯|◁⎯ 2 ⎯▷|⎯ 3
+.SUBCKT DIODE_PAIR_CA 1 2 3 PARAMS: VJ1=0.3 VJ2=0.3
+.model DCA1 D VJ={VJ1}
+.model DCA2 D VJ={VJ2}
+D1 2 1 DCA1
+D2 2 3 DCA2
+.ENDS
+
+* Common cathode diode pair
+* The Spice diode model requires pin 1 as anode and pin 2 as cathode (1 ⎯▷|⎯ 2)
+*  1 ⎯▷|⎯ 2 ⎯|◁⎯ 3
+.SUBCKT DIODE_PAIR_CC 1 2 3 PARAMS: VJ1=0.3 VJ2=0.3
+.model DCC1 D VJ={VJ1}
+.model DCC2 D VJ={VJ2}
+D1 1 2 DCC1
+D2 3 2 DCC2
+.ENDS
