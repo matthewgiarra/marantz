@@ -1,0 +1,20 @@
+** NPN Epitaxial Silicon Transistor
+** Product: KSC2383
+** Package: TO-92L
+** Source: https://www.onsemi.com/pub/Collateral/KSC2383.lib
+** Creation : Jun-17-2004
+** Fairchild Semiconductor
+** Terminals: Emitter(1) Collector(2) Base(3)
+**-------------------------------------------------------
+.MODEL KSC2383 NPN (                                
++ IS     = 8.51138E-13     BF     = 142.3           NF     = 1                  
++ BR     = 3               NR     = 1               ISE    = 2.511886E-11       
++ NE     = 2               ISC    = 2E-16           NC     = 1.5                
++ VAF    = 14.9            VAR    = 162.19          IKF    = 0.8084             
++ IKR    = 0.01            RB     = 118.3           RBM    = 1.099              
++ IRB    = 1E-6            RE     = 0.09            RC     = 0.06               
++ CJE    = 3.050808E-10    VJE    = 0.6774158       MJE    = 0.348506           
++ FC     = 0.5             CJC    = 5.034495E-11    VJC    = 0.3428657          
++ MJC    = 0.3767662       XCJC   = 0.36            TF     = 1.59E-9    
++ XTB    = 1.4521          EG     = 1.2336          XTI    = 3 )
+**-------------------------------------------------------
