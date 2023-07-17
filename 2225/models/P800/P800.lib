@@ -1,0 +1,86 @@
+** Spice models for Marantz 2225 P800 (DC power supply) **
+
+* --------------------- 1N4744A Zener Diode ---------------------
+* Product: 1N4744A Zener Diode (15V)
+* Source: Data from https://www.onsemi.com/download/data-sheet/pdf/1n4736at-d.pdf
+* Note: Spice pin order and kicad pin order are reversed! 
+*       In Spice, pin 1 is anode and pin 2 is cathode.
+*       In KiCad, pin 1 is the cathode and pin 2 is the anode.
+*       For simulations, make sure to use Alternate node squence: 2 1 
+.model D1N4744A D BV=15 IBV=17.0E-3 RS=14
+
+* --------------------- Common Anode Diode Pair ---------------------
+* 1 ⎯|◁⎯ 2 ⎯▷|⎯ 3
+* Note: The Spice diode model requires pin 1 as anode and pin 2 as cathode (1 ⎯▷|⎯ 2)
+.SUBCKT DIODE_PAIR_CA 1 2 3 PARAMS: VJ1=0.3 VJ2=0.3
+.model DCA1 D VJ={VJ1}
+.model DCA2 D VJ={VJ2}
+D1 2 1 DCA1
+D2 2 3 DCA2
+.ENDS
+
+* --------------------- Common Cathode Diode Pair ---------------------
+*  1 ⎯▷|⎯ 2 ⎯|◁⎯ 3
+* Note: The Spice diode model requires pin 1 as anode and pin 2 as cathode (1 ⎯▷|⎯ 2)
+.SUBCKT DIODE_PAIR_CC 1 2 3 PARAMS: VJ1=0.3 VJ2=0.3
+.model DCC1 D VJ={VJ1}
+.model DCC2 D VJ={VJ2}
+D1 1 2 DCC1
+D2 3 2 DCC2
+.ENDS
+
+* --------------------- Linear Potentiometer ---------------------
+*     All pots have this kind of layout unless noted otherwise
+* 0.0 -----> 1.0
+*        |2
+*      __V__
+*  1--|_____|--3
+*        
+*  o--R1-o-R2--o
+*
+* Parameters: POT_VAL, SET
+* POT_VAL: Max resistance of the potentiometer. Ohms; POT_VAL >= 0
+* SET = ratio of travel of the potentiometer. Unitless; 0 <= SET <= 1
+* Example: POT_LINEAR POT_VAL=5k SET=0.5
+.SUBCKT LINEAR_POTENTIOMETER 1 2 3 PARAMS: POT_VAL=5k SET=0.5
+.param set_clipped=limit(0,SET,1)
+R1 1 2 {POT_VAL*(set_clipped) + 0.0001}
+R2 2 3 {POT_VAL*(1-set_clipped) + 0.0001}
+.ENDS
+
+* --------------------- KSC2383 BJT Transistor (NPN) ---------------------
+* Product: KSC2383
+* Type: NPN
+* Package: TO-92L
+* Source: https://www.onsemi.com/pub/Collateral/KSC2383.lib
+* Creation : Jun-17-2004
+* Fairchild Semiconductor
+* Terminals: Emitter(1) Collector(2) Base(3)
+.MODEL KSC2383 NPN (                                
++ IS     = 8.51138E-13     BF     = 142.3           NF     = 1                  
++ BR     = 3               NR     = 1               ISE    = 2.511886E-11       
++ NE     = 2               ISC    = 2E-16           NC     = 1.5                
++ VAF    = 14.9            VAR    = 162.19          IKF    = 0.8084             
++ IKR    = 0.01            RB     = 118.3           RBM    = 1.099              
++ IRB    = 1E-6            RE     = 0.09            RC     = 0.06               
++ CJE    = 3.050808E-10    VJE    = 0.6774158       MJE    = 0.348506           
++ FC     = 0.5             CJC    = 5.034495E-11    VJC    = 0.3428657          
++ MJC    = 0.3767662       XCJC   = 0.36            TF     = 1.59E-9    
++ XTB    = 1.4521          EG     = 1.2336          XTI    = 3 )
+
+* --------------------- TIP41C BJT Transistor (NPN) ---------------------
+** Product: TIP41C
+** Type: NPN
+** Package: TO-220
+** Source: https://www.onsemi.com/pub/Collateral/TIP41C.lib
+.model TIP41C NPN (
++IS=7.55826e-11 BF=260.542 NF=1.11221 VAF=100
++IKF=0.526814 ISE=1e-08 NE=2.18072 BR=26.0542
++NR=1.5 VAR=1000 IKR=3.54059 ISC=1e-08
++NC=1.63849 RB=4.56157 IRB=0.1 RBM=0.1
++RE=0.0162111 RC=0.0810556 XTB=0.1 XTI=1
++EG=1.206 CJE=1.93296e-10 VJE=0.4 MJE=0.259503
++TF=1e-08 XTF=4.06972 VTF=7.1157 ITF=0.001
++CJC=1.09657e-10 VJC=0.730921 MJC=0.23 XCJC=0.803085
++FC=0.8 CJS=0 VJS=0.75 MJS=0.5
++TR=9.01013e-08 PTF=0 KF=0 AF=1 )
