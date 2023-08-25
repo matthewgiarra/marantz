@@ -1,0 +1,31 @@
+** Spice models for Marantz 2225 system level assembly **
+
+** 120VAC to 24/48VAC Transformer
+* Based on Triad Magnetics VPT48-2080
+* Transformer spec sheet: https://catalog.triadmagnetics.com/item/power-transformers/toroidal-mount-world-series-power-transformers/vpt48-2080 
+* 1 ───┬───┐  ││  ┌────┬─── 5
+*      │   │  ││  │    │
+*      │   │  ││  │ S1 │
+*      │   │  ││  │    │
+*      │ P │  ││  ├────├─── 4
+*      │   │  ││  │    │
+*      │   │  ││  │ S2 │
+*      │   │  ││  │    │
+* 2 ───┴───┘  ││  └────┴─── 3
+
+.SUBCKT TRANSFORMER_VPT48_2080 1 2 3 4 5
+
+* Linear coupling between inductors, with coupling factor = 1
+Kn_K1 L_Lp L_Ls1 L_Ls2 1
+
+* Inductors
+L_Lp 2 Lp_pos 1000
+L_Ls1 4 5 50
+L_Ls2 3 4 50
+
+* Resistors to prevent DC shorts (in spice)
+R_R1 1 Lp_pos 1k
+R_R2 4 5 1k
+R_R3 3 4 1k
+
+.ENDS
