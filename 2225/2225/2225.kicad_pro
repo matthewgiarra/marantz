@@ -306,7 +306,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
+      "model_mode": 3,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
@@ -320,10 +320,6 @@
     [
       "a3179970-06b2-4b88-8d2e-a416cea40404",
       ""
-    ],
-    [
-      "8f42df32-850d-4311-9096-4f4679121706",
-      "PE01 preamp"
     ],
     [
       "36088727-1b39-4012-9543-3954c55ed3b2",

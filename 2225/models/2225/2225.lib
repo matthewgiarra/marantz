@@ -1,3 +1,4 @@
+
 ** Spice models for Marantz 2225 system level assembly **
 
 ** 120VAC to 24/48VAC Transformer
@@ -24,8 +25,8 @@ L_Ls1 4 5 50
 L_Ls2 3 4 50
 
 * Resistors to prevent DC shorts (in spice)
-R_R1 1 Lp_pos 1k
-R_R2 4 5 1k
-R_R3 3 4 1k
+R_R1 1 Lp_pos 1
+R_R2 4 5 1
+R_R3 3 4 1
 
 .ENDS
