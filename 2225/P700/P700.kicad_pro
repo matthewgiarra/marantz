@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "2225.kicad_pro",
+    "filename": "P700.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -306,7 +306,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 3,
+      "model_mode": 0,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
@@ -318,24 +318,8 @@
   },
   "sheets": [
     [
-      "a3179970-06b2-4b88-8d2e-a416cea40404",
+      "21438e88-3c6b-4050-968b-c613d3e7ab0f",
       ""
-    ],
-    [
-      "36088727-1b39-4012-9543-3954c55ed3b2",
-      "P800 DC Power Supply"
-    ],
-    [
-      "aaad2c15-e572-42f6-9496-660c3f343733",
-      "PE01 Tone Board"
-    ],
-    [
-      "d6109a8e-bf6e-4b97-97c1-0fc23c44dbb3",
-      "Audio Source"
-    ],
-    [
-      "1af649ee-687d-4a3b-8401-4f7a19865804",
-      "P700 Main Amplifier"
     ]
   ],
   "text_variables": {}
