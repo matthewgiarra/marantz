@@ -322,6 +322,10 @@
       ""
     ],
     [
+      "993041cb-237d-41cc-930b-a1ec1a772848",
+      "Volume"
+    ],
+    [
       "36088727-1b39-4012-9543-3954c55ed3b2",
       "P800 DC Power Supply"
     ],
@@ -330,12 +334,16 @@
       "PE01 Tone Board"
     ],
     [
-      "d6109a8e-bf6e-4b97-97c1-0fc23c44dbb3",
+      "4282f03f-724c-45a3-813c-8d5d136b020c",
       "Audio Source"
     ],
     [
       "1af649ee-687d-4a3b-8401-4f7a19865804",
       "P700 Main Amplifier"
+    ],
+    [
+      "1cb296cb-a02a-41d5-9f3d-103b5c434ce4",
+      "Lights"
     ]
   ],
   "text_variables": {}
