@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "P800_footprint_library")(type "KiCad")(uri "${KIPRJMOD}/libs/P800_footprint_library.pretty")(options "")(descr "Marantz 2225 P800 footprints"))
+)
