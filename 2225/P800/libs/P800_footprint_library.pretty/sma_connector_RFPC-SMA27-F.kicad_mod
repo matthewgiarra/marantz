@@ -1,4 +1,4 @@
-(footprint "GRADCONN_RFPC-SMA27-F"
+(footprint "sma_connector_RFPC-SMA27-F"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -257,7 +257,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "33f8ccfc-2eeb-469d-ac6b-1103f2ca2abb")
 	)
-	(model "${KIPRJMOD}/3dmodels/RFPC-SMA27-F.step"
+	(model "${KIPRJMOD}/3dmodels/sma_connector_RFPC-SMA27-F.step"
 		(offset
 			(xyz 0 0 0)
 		)

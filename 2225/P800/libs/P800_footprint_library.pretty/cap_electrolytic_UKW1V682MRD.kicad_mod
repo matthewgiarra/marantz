@@ -1,0 +1,249 @@
+(footprint "cap_electrolytic_UKW1V682MRD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "UKW1V682MRD ")
+	(property "Reference" "REF**"
+		(at 5 -11.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "76cbc155-921b-4a49-8912-95813a84c3a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP_UFW_20X40_NCH"
+		(at 5 12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2337e0d5-8a5f-43d7-bbfa-0d52789ab5eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73375b9b-86fa-4234-bdcc-07f869c29286")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b8f69a6-213f-460c-93eb-fd7b28983ab6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10f1d5d1-983a-492f-a1ed-114c7b55e373")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.5189 0)
+		(end -5.2489 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b69976e-3fba-4329-b25d-ba219447982c")
+	)
+	(fp_line
+		(start -5.8839 -0.635)
+		(end -5.8839 0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eaff50ef-b567-477f-a5bc-13a280d49c00")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 15.1219 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "398ba108-9d02-4634-8c02-6dc4b23c9f1e")
+	)
+	(fp_line
+		(start -5.2489 -4.220136)
+		(end 0.779864 -10.2489)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c82edb59-bbd4-41be-87d1-601363034663")
+	)
+	(fp_line
+		(start -5.2489 4.220136)
+		(end -5.2489 -4.220136)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2a9488a-ef6a-4364-828e-4f737795f488")
+	)
+	(fp_line
+		(start 0.779864 -10.2489)
+		(end 9.220136 -10.2489)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "94efc8cf-050c-443c-b82d-9ed9114d559e")
+	)
+	(fp_line
+		(start 0.779864 10.2489)
+		(end -5.2489 4.220136)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c668a8e-187c-4818-accd-9f095abfe64c")
+	)
+	(fp_line
+		(start 9.220136 -10.2489)
+		(end 15.2489 -4.220136)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e18910a6-0157-46a1-a889-83fcc7e5bc45")
+	)
+	(fp_line
+		(start 9.220136 10.2489)
+		(end 0.779864 10.2489)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "42074575-b147-4717-8d7b-9dde4a4a8461")
+	)
+	(fp_line
+		(start 15.2489 -4.220136)
+		(end 15.2489 4.220136)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4c2ea27-063f-4d1b-b804-41e6d4586d3c")
+	)
+	(fp_line
+		(start 15.2489 4.220136)
+		(end 9.220136 10.2489)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "646fdea4-995a-44fc-9059-00da7af2fd8a")
+	)
+	(fp_line
+		(start -6.5189 0)
+		(end -5.2489 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "666db386-024a-4a86-b04a-544ae04bf406")
+	)
+	(fp_line
+		(start -5.8839 -0.635)
+		(end -5.8839 0.635)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ee6ec8f-420a-435d-a82b-dacb60f73a76")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 14.9949 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "be738a7a-f42f-4f7b-8839-04ce4d04d73b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5 14.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4584bbf9-9431-45e0-b3cc-f5d9fdc784c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7526 1.7526)
+		(drill 1.2446)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "493b999c-8ceb-4ac3-92d5-871b890ec04d")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 1.7526 1.7526)
+		(drill 1.2446)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "61c899c7-c3af-495a-af2c-18dfa8eba619")
+	)
+	(model "${KIPRJMOD}/3dmodels/cap_electrolytic_UKW1V682MRD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

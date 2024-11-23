@@ -1,0 +1,234 @@
+(footprint "cap_ceramic_RCER71H473K0M1H03A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.175 -2.385 0)
+		(layer "F.SilkS")
+		(uuid "f736debb-d723-4cb9-a313-82b392af62d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "cap_ceramic_RCER71H473K0M1H03A"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "eaeb6918-ecd7-44ca-9652-c0c512395d53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5df924b0-b8aa-4b7e-9fc3-ecd88adeb8f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dd10b56-e1ae-411b-840a-deac65cf8f27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa8973b3-532f-4406-8d7a-c095cf5f9e7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.8 -1.25)
+		(end 1.8 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79fbde55-f099-4d38-a5fb-1f4b7d3a7544")
+	)
+	(fp_line
+		(start -1.8 -0.547)
+		(end -1.8 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bae7b39a-7267-44c4-bb72-0b77f5f61843")
+	)
+	(fp_line
+		(start -1.8 1.25)
+		(end -1.8 0.547)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e8e67d6-1c2b-49e7-adad-cf8771b04cc2")
+	)
+	(fp_line
+		(start 1.8 -0.547)
+		(end 1.8 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d08ccca1-a29a-4790-b069-beca9ad7b643")
+	)
+	(fp_line
+		(start 1.8 1.25)
+		(end -1.8 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "404a712f-73b0-4110-ae40-0b52b9ceef65")
+	)
+	(fp_line
+		(start 1.8 1.25)
+		(end 1.8 0.547)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f6169c8-5f26-45dd-b00e-f9966ec70faf")
+	)
+	(fp_line
+		(start -3.325 -1.5)
+		(end 3.325 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "496d981b-2771-496b-8e0d-9a1da024bcb6")
+	)
+	(fp_line
+		(start -3.325 1.5)
+		(end -3.325 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "807dcd81-91b6-405e-9126-f40e2afc631d")
+	)
+	(fp_line
+		(start 3.325 -1.5)
+		(end 3.325 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ac6f833e-486b-4de9-bb38-e7a244e3a1e0")
+	)
+	(fp_line
+		(start 3.325 1.5)
+		(end -3.325 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd84c3e4-7c9e-41fc-96e0-a69f9af2554f")
+	)
+	(fp_line
+		(start -1.8 -1.25)
+		(end 1.8 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c5cbbc4-429b-433d-bf6e-af3ee6f2d011")
+	)
+	(fp_line
+		(start -1.8 1.25)
+		(end -1.8 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "054f2483-81d6-4e35-aaa7-46abac230ad8")
+	)
+	(fp_line
+		(start 1.8 -1.25)
+		(end 1.8 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b903ef18-fe7f-4f7c-905d-e902e57c027b")
+	)
+	(fp_line
+		(start 1.8 1.25)
+		(end -1.8 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "298e4eb4-9f57-48fd-952b-8a7e1ecf40f2")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.15 1.15)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "27111750-765f-4593-9470-03696cb409fa")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.15 1.15)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "fa1ec204-a726-4ffc-bc32-3691a9f07fb0")
+	)
+	(model "${KIPRJMOD}/3dmodels/cap_ceramic_RCER71H473K0M1H03A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
