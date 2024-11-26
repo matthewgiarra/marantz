@@ -1,10 +1,10 @@
-(footprint "heatsink_577202B04000G"
+(footprint "heatsink_577202B00000G"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0.5 2.5 0)
+		(at 0.5 1 0)
 		(layer "F.SilkS")
 		(uuid "3f8819e8-4094-413e-b48b-f8651f05b018")
 		(effects
@@ -14,8 +14,8 @@
 			)
 		)
 	)
-	(property "Value" "HSINK_577202B04000G"
-		(at 0 4 0)
+	(property "Value" "HSINK_577202B00000G"
+		(at 0 2.5 0)
 		(layer "F.Fab")
 		(uuid "a1e02cf5-3cd8-4ff9-a16f-21869ed11092")
 		(effects
@@ -143,38 +143,8 @@
 		(uuid "6dad71a7-9a60-4813-b8f7-5a5fc701505f")
 	)
 	(fp_line
-		(start -2.54 0.0127)
-		(end -2.54 0.8255)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "d297cef5-d910-4b9c-9e95-131d599a9f8d")
-	)
-	(fp_line
-		(start -2.54 0.0127)
-		(end -2.54 0.8255)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "e4cbca82-5045-4a5c-8327-a796469fd667")
-	)
-	(fp_line
-		(start -2.54 0.8255)
-		(end -1.626 0.8255)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "f5ad50cb-24e0-43a1-946f-b8e791b4b850")
-	)
-	(fp_line
-		(start -2.54 0.8255)
-		(end 2.54 0.8255)
+		(start -2.54 0)
+		(end 2.54 0)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -191,16 +161,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "5d3a007d-6914-4bf1-8dec-b4767a93eb32")
-	)
-	(fp_line
-		(start 1.626 0.8255)
-		(end 2.54 0.8255)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a208cbe9-76db-4fc2-afe6-635d94191cc1")
 	)
 	(fp_line
 		(start 2.54 0.0127)
@@ -221,26 +181,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "d52ed45e-75ae-49e7-9d31-730e1fc1ed65")
-	)
-	(fp_line
-		(start 2.54 0.8255)
-		(end 2.54 0.0127)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "03ad09d7-cbc4-4ec9-a562-044257d5d61c")
-	)
-	(fp_line
-		(start 2.54 0.8255)
-		(end 2.54 0.0127)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a6f31917-9e43-4c76-b57e-84655e1efbfc")
 	)
 	(fp_line
 		(start 5.08 -1.2573)
@@ -410,24 +350,15 @@
 		(layer "F.Fab")
 		(uuid "c45ebd88-c5ee-4aa9-ace1-fd952567be6b")
 	)
-	(pad "1" thru_hole circle
-		(at 0 0)
-		(size 2.625 2.625)
-		(drill 1.75)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "12fe923b-d43a-4c84-8ad4-dc850b6849e8")
-	)
-	(model "${KIPRJMOD}/3dmodels/HEATSINK_577202B04000G.step"
+	(model "${KIPRJMOD}/3dmodels/HEATSINK_577202B00000.step"
 		(offset
-			(xyz 0 3.15 2.5)
+			(xyz 0 0 12.25)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 180)
+			(xyz 0 -90 0)
 		)
 	)
 )

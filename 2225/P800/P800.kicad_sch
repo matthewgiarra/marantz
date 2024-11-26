@@ -1649,24 +1649,23 @@
 				)
 			)
 		)
-		(symbol "Mechanical:Heatsink_Pad"
-			(pin_numbers hide)
+		(symbol "Mechanical:Heatsink"
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 			)
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "HS"
-				(at 0 5.715 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Heatsink_Pad"
-				(at 0 3.81 0)
+			(property "Value" "Heatsink"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1674,7 +1673,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0.3048 -1.27 0)
+				(at 0.3048 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1683,7 +1682,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0.3048 -1.27 0)
+				(at 0.3048 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1691,7 +1690,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Heatsink with electrical connection, 1 pin"
+			(property "Description" "Heatsink"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1718,11 +1717,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "Heatsink_Pad_0_1"
+			(symbol "Heatsink_0_1"
 				(polyline
 					(pts
-						(xy -0.3302 0) (xy -0.9652 0) (xy -0.9652 2.54) (xy -1.6002 2.54) (xy -1.6002 0) (xy -2.2352 0)
-						(xy -2.2352 2.54) (xy -2.8702 2.54) (xy -2.8702 -1.27) (xy -0.9652 -1.27)
+						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
+						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1734,9 +1733,9 @@
 				)
 				(polyline
 					(pts
-						(xy -0.3302 0) (xy -0.3302 2.54) (xy 0.3048 2.54) (xy 0.3048 0) (xy 0.9398 0) (xy 0.9398 2.54)
-						(xy 1.5748 2.54) (xy 1.5748 0) (xy 2.2098 0) (xy 2.2098 2.54) (xy 2.8448 2.54) (xy 2.8448 -1.27)
-						(xy -0.9652 -1.27)
+						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
+						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
+						(xy -0.9652 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1744,32 +1743,11 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(symbol "Heatsink_Pad_1_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
 		)
 		(symbol "P800:MBRF10150CT"
-			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2088,7 +2066,6 @@
 			)
 		)
 		(symbol "P800:MBRF10150CTR"
-			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2407,7 +2384,6 @@
 			)
 		)
 		(symbol "Q_NPN_CBE_1"
-			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -2815,12 +2791,6 @@
 		(uuid "36753b6f-a63a-4854-9c5f-a35edb30c7b2")
 	)
 	(junction
-		(at 53.34 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37664ed1-9b3a-44f3-87ac-b70d5bf14405")
-	)
-	(junction
 		(at 194.31 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2869,12 +2839,6 @@
 		(uuid "53515e8c-8014-4258-9d00-5b9c3d62b872")
 	)
 	(junction
-		(at 53.34 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b39f9c8-d863-40da-a436-1b893153ced4")
-	)
-	(junction
 		(at 180.34 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2891,6 +2855,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "741f8b0f-4ff4-4ca2-9015-f971bc3a83c3")
+	)
+	(junction
+		(at 53.34 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "754f820b-2327-40f0-b79e-d5e75e9de74a")
 	)
 	(junction
 		(at 69.85 92.71)
@@ -2969,16 +2939,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff350626-3288-4996-9b88-01319ee1edd8")
-	)
-	(wire
-		(pts
-			(xy 52.07 90.17) (xy 53.34 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "029f6e34-6ff4-487c-945a-af320c6aa792")
 	)
 	(wire
 		(pts
@@ -3202,6 +3162,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 71.12) (xy 69.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39eb6a72-eca1-40c2-aa68-735645331170")
+	)
+	(wire
+		(pts
 			(xy 130.81 83.82) (xy 121.92 83.82)
 		)
 		(stroke
@@ -3329,6 +3299,16 @@
 			(type default)
 		)
 		(uuid "64f06651-040a-4484-ad6a-16002d91d0a5")
+	)
+	(wire
+		(pts
+			(xy 53.34 87.63) (xy 53.34 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650cb39a-14c2-4f8b-abb0-bb6adc452e2f")
 	)
 	(wire
 		(pts
@@ -3512,7 +3492,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 92.71) (xy 69.85 92.71)
+			(xy 52.07 92.71) (xy 53.34 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3542,33 +3522,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 87.63) (xy 53.34 87.63)
+			(xy 53.34 92.71) (xy 69.85 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c084f29-a8e2-4249-acf3-a508636b6472")
-	)
-	(wire
-		(pts
-			(xy 53.34 87.63) (xy 53.34 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c474ba6-dabe-430e-9217-3f4a54bc17af")
-	)
-	(wire
-		(pts
-			(xy 52.07 74.93) (xy 53.34 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ccb9031-4e6b-49be-871f-0e706fc74efd")
+		(uuid "a0252359-1d3b-407a-bc0d-75acce577812")
 	)
 	(wire
 		(pts
@@ -3602,13 +3562,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 90.17) (xy 53.34 92.71)
+			(xy 43.18 87.63) (xy 53.34 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a836fd8b-1138-4929-a515-27f4032d60b7")
+		(uuid "aa08fbce-111d-46d2-84ef-8c87fecd4be6")
 	)
 	(wire
 		(pts
@@ -3729,6 +3689,16 @@
 			(type default)
 		)
 		(uuid "cb65189d-551c-45c2-bed4-e93626fa126f")
+	)
+	(wire
+		(pts
+			(xy 64.77 71.12) (xy 69.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd91530f-8c61-4a42-b862-53365626ac20")
 	)
 	(wire
 		(pts
@@ -3880,6 +3850,16 @@
 		)
 		(uuid "ffb26768-9827-44e6-a62a-38b569c478c1")
 	)
+	(text "HEATSINK ON\nH805 (TO-220-3)"
+		(exclude_from_sim no)
+		(at 38.1 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "02105f34-d3c6-4d8f-a00c-550c45bf3337")
+	)
 	(text "45V"
 		(exclude_from_sim no)
 		(at 135.89 82.55 0)
@@ -3904,7 +3884,7 @@
 	)
 	(text "+24VAC"
 		(exclude_from_sim no)
-		(at 33.02 77.47 0)
+		(at 31.75 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3986,7 +3966,7 @@
 	)
 	(text "CHASSIS GND"
 		(exclude_from_sim no)
-		(at 30.48 80.01 0)
+		(at 29.21 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4016,7 +3996,7 @@
 	)
 	(hierarchical_label "-24VAC"
 		(shape input)
-		(at 52.07 90.17 180)
+		(at 52.07 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4062,6 +4042,18 @@
 		)
 		(uuid "7a39c127-4f87-40db-8cf7-c8a3763ed2dc")
 	)
+	(hierarchical_label "+24VAC"
+		(shape input)
+		(at 64.77 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96a7c38e-f85f-4fd8-a151-095f7b20230e")
+	)
 	(hierarchical_label "15VDC_out"
 		(shape output)
 		(at 219.71 110.49 0)
@@ -4073,18 +4065,6 @@
 			(justify left)
 		)
 		(uuid "bffa9427-ddb7-43be-a51d-7c5f3ef1e381")
-	)
-	(hierarchical_label "+24VAC"
-		(shape input)
-		(at 52.07 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cb309796-ebab-4142-ac4d-2377576d1949")
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
@@ -4463,73 +4443,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink_Pad")
-		(at 39.37 97.79 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f3a114c-d816-4cf6-938d-0e9f832263aa")
-		(property "Reference" "HS1"
-			(at 38.1 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink_Pad"
-			(at 43.18 98.4249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "P800_footprint_library:heatsink_577202B04000G"
-			(at 39.6748 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.6748 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heatsink with electrical connection, 1 pin"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4af1a422-7897-4fec-b1a5-585d4f4d8393")
-		)
-		(instances
-			(project ""
-				(path "/0d9326c1-41e9-4c7f-81ed-9b5d802cb1b5"
-					(reference "HS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 194.31 90.17 180)
 		(unit 1)
@@ -4594,6 +4507,74 @@
 			(project ""
 				(path "/0d9326c1-41e9-4c7f-81ed-9b5d802cb1b5"
 					(reference "R806")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "126c8ecf-4512-4bd5-b3ac-7967108602b2")
+		(property "Reference" "#PWR06"
+			(at 49.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bd786b5-ced1-469c-b8c2-3f3d2577f45a")
+		)
+		(instances
+			(project "P800"
+				(path "/0d9326c1-41e9-4c7f-81ed-9b5d802cb1b5"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5179,74 +5160,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 43.18 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4097243d-bf21-4163-9c7e-0ff487efc158")
-		(property "Reference" "#PWR06"
-			(at 49.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "453d19ee-f0d0-46f2-acfb-25990f796177")
-		)
-		(instances
-			(project "P800"
-				(path "/0d9326c1-41e9-4c7f-81ed-9b5d802cb1b5"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "P800:MBRF10150CT")
 		(at 90.17 83.82 90)
 		(unit 1)
@@ -5776,6 +5689,70 @@
 			(project ""
 				(path "/0d9326c1-41e9-4c7f-81ed-9b5d802cb1b5"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 38.1 100.33 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "719599a7-9371-4135-ad3e-93be4e7856ec")
+		(property "Reference" "HS1"
+			(at 41.91 97.1549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 41.91 99.6949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "P800_footprint_library:heatsink_577202B00000G"
+			(at 38.4048 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.4048 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink"
+			(at 38.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/0d9326c1-41e9-4c7f-81ed-9b5d802cb1b5"
+					(reference "HS1")
 					(unit 1)
 				)
 			)
@@ -7073,73 +7050,6 @@
 			(project ""
 				(path "/0d9326c1-41e9-4c7f-81ed-9b5d802cb1b5"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 39.37 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee603595-9df4-4165-8c8b-6eba119a86a1")
-		(property "Reference" "#PWR07"
-			(at 39.37 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e08cd42-487b-48b9-a45d-81e5871003b0")
-		)
-		(instances
-			(project ""
-				(path "/0d9326c1-41e9-4c7f-81ed-9b5d802cb1b5"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
