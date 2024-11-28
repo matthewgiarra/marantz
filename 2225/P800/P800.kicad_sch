@@ -4331,7 +4331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "P800_footprint_library:cap_electrolytic_UFG1H101MPM1TD"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 130.81 114.3 0)
 			(effects
 				(font
@@ -4400,7 +4400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "P800_footprint_library:cap_electrolytic_UKW1J471MHD1TO"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 121.92 114.3 0)
 			(effects
 				(font
@@ -4702,7 +4702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "P800_footprint_library:cap_electrolytic_panasonic_5X11"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 179.07 90.17 0)
 			(effects
 				(font
@@ -4771,7 +4771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "P800_footprint_library:cap_electrolytic_A50"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D25.0mm_P10.00mm_SnapIn"
 			(at 181.61 72.39 0)
 			(effects
 				(font
@@ -4917,7 +4917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "P800_footprint_library:cap_electrolytic_UFG1C471MPM1TD"
+		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm"
 			(at 180.34 118.11 0)
 			(effects
 				(font
@@ -5992,7 +5992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "P800_footprint_library:cap_electrolytic_UKW1J471MHD1TO"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 113.03 114.3 0)
 			(effects
 				(font
@@ -6375,7 +6375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "P800_footprint_library:cap_electrolytic_A50"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D25.0mm_P10.00mm_SnapIn"
 			(at 181.61 57.15 0)
 			(effects
 				(font
