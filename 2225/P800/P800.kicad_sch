@@ -6361,7 +6361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "P800_footprint_library:molex_nanofit_4-pos_header_1053131204"
+		(property "Footprint" "P800_footprint_library:molex_nanofit_4-pos_header_vert_1053091204"
 			(at 39.37 81.28 0)
 			(effects
 				(font
@@ -7350,7 +7350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "P800_footprint_library:molex_nanofit_2-pos_header_1053132302"
+		(property "Footprint" "P800_footprint_library:molex_nanofit_2-pos_header_vert_1053091302"
 			(at 218.44 86.36 0)
 			(effects
 				(font
@@ -7626,7 +7626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "P800_footprint_library:molex_nanofit_4-pos_header_1053131204"
+		(property "Footprint" "P800_footprint_library:molex_nanofit_4-pos_header_vert_1053091204"
 			(at 219.71 63.5 0)
 			(effects
 				(font
